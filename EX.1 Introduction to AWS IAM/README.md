@@ -28,14 +28,16 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
 **Screenshot:**  
-(Add screenshot here)
+
+<img width="1892" height="1077" alt="Screenshot 2026-07-30 163302" src="https://github.com/user-attachments/assets/2d889fc7-8fd9-41fb-94c4-73db82e038cb" />
 
 ### Task 2: Add Users to Groups
 - Added user-1 to the S3-Support group  
 - Added user-2 to the EC2-Support group  
 - Added user-3 to the EC2-Admin group  
 **Screenshot:**  
-(Add screenshot here)
+
+<img width="1917" height="1088" alt="Screenshot 2026-07-30 164057" src="https://github.com/user-attachments/assets/dbd46651-fb21-4834-b184-9e20bebb1971" />
 
 ### Task 3: Test IAM User Permissions
 - Logged in using IAM sign-in URL  
@@ -43,10 +45,10 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Verified EC2 read-only access for user-2  
 - Verified EC2 administrative access for user-3  
 **Screenshot:**  
-(Add screenshot here)
 
+<img width="1917" height="1106" alt="Screenshot 2026-07-30 164403" src="https://github.com/user-attachments/assets/193e8d7f-5b60-4cec-a850-c9883c371de6" />
 
-## Workflow
+## Workflow:
 1. Accessed IAM console and reviewed users and groups.  
 2. Inspected policy permissions attached to groups.  
 3. Assigned users to groups based on their roles.  
@@ -54,18 +56,20 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 5. Validated permissions by accessing AWS services.  
 
 
-## Learning Outcomes
+## Learning Outcomes:
 - Understood the role of IAM in AWS security.  
 - Learned how IAM users, groups, and policies interact.  
 - Gained practical experience implementing role-based access control.  
 - Verified permission enforcement through real-time service testing.  
 
 
-## Conclusion
+## Conclusion:
 This lab provided hands-on experience with AWS IAM by demonstrating how organizations manage secure access to cloud resources. Assigning users to groups with predefined policies simplified permission management and ensured role-based access control across AWS services.
 
 
-## Author
-**Name:** Your Name and (Reg No)
+## Author:
+
+**Name:** G ASWINI - 212224040037
+
 **Course:** Introduction to Cloud Computing  
 
