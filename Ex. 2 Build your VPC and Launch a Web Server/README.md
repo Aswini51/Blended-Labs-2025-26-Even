@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: G ASWINI
+* **Register Number**: 212224040037
+* **Date of Submission**: 21/08/2026
 
 ---
 
@@ -85,36 +85,36 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Created a VPC I went to the VPC dashboard in AWS and created a new VPC with the CIDR block 10.0.0.0/16. I gave it a meaningful name so I could easily identify it later.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Created a Public Subnet Inside the VPC, I created a new subnet with the CIDR block 10.0.1.0/24. I enabled the option to auto-assign public IPv4 addresses so that any instance launched in this subnet would automatically receive a public IP.
 
----
+3.Created and Attached an Internet Gateway I created a new Internet Gateway and attached it to my VPC. This allows resources inside the VPC to communicate with the internet.
+
+4.Configured Route Table I created a new route table and added a default route 0.0.0.0/0 pointing to the Internet Gateway. Then I associated this route table with the public subnet to allow internet access.
+
+5.Created a Security Group I created a security group and added inbound rules to allow: SSH (Port 22) for remote access HTTP (Port 80) to allow web traffic.
+
+6.Launched an EC2 Instance I launched a new EC2 instance using the Amazon Linux 2 AMI and selected the t2.micro instance type. I selected the public subnet, attached the security group I created, and selected my key pair for SSH access.
+
+7.Configured the Web Server.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
-
----
+<img width="1245" height="620" alt="image" src="https://github.com/user-attachments/assets/1c832cd6-2efd-4c66-8ae6-39d149d1c6e3" />
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
-
----
+<img width="1250" height="623" alt="image" src="https://github.com/user-attachments/assets/1a72b46e-a764-43ae-84e8-3e43bacf81d6" />
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1250" height="738" alt="image" src="https://github.com/user-attachments/assets/742fc1e2-e00e-4af9-8b7a-43a25f4ba6b9" />
 
----
+## RESULT:
 
-## Result 
+This experiment successfully demonstrated the creation of a custom VPC and deployment of a public-facing web server in AWS. By configuring networking components such as subnets, route tables, and security groups, and by launching an EC2 instance with a web server, the basic architecture of a cloud-hosted application was understood.
 
 This experiment successfully demonstrated the creation of a custom VPC and deployment of a public-facing web server in AWS. By configuring networking components such as subnets, route tables, and security groups, and by launching an EC2 instance with a web server, the basic architecture of a cloud-hosted application was understood.
