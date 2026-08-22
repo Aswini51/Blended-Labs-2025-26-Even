@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: G ASWINI
+* **Register Number**: 212224040037
+* **Date of Submission**: 22/08/2026
 
 ---
 
@@ -96,13 +96,15 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.The EC2 Dashboard was accessed through the AWS Management Console to explore its various features. 
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.A new EC2 instance was launched using the Amazon Linux 2 AMI and the t2.micro instance type for free-tier eligibility. 
+
+3.The security group was configured to allow SSH access from the specified IP address and HTTP access from all IPs. 
+
+4.The instance was connected via SSH using the downloaded key pair, and basic operations such as stop, start, and reboot were performed. 
+
+5.Finally, the instance was monitored using the Monitoring tab before being terminated to avoid additional charges.
 
 ---
 
@@ -110,22 +112,16 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
-
----
+<img width="1253" height="644" alt="image" src="https://github.com/user-attachments/assets/8e719572-7278-4495-9ce8-23966f3b6484" />
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
-
----
+<img width="1245" height="641" alt="image" src="https://github.com/user-attachments/assets/397b0fe7-ad2d-4ff2-92dc-88f6e16a5479" />
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1252" height="641" alt="image" src="https://github.com/user-attachments/assets/46c811c3-f220-4dbe-886f-91f9d129bfd0" />
 
----
-
-## Result 
+## Result :
 
 This experiment provided hands-on experience with Amazon EC2 by demonstrating how to launch, connect, manage, and monitor a virtual server in AWS. It helped in understanding the concept of Infrastructure as a Service (IaaS) and how compute resources can be provisioned and controlled on demand in the cloud.
